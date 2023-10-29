@@ -1,0 +1,7 @@
+{{ range .Contacts }}
+<tr class="table_row">
+    <td class="table_cell">{{ .Email }}</td>
+    <td class="table_cell">{{ .FirstName }}</td>
+    <td class="table_cell">{{ .LastName }}</td>
+</tr>
+{{ end }}
